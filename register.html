@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="scripts/css/main.css">
+        <link rel="stylesheet" type="text/css" href="scripts/css/form.css">
+        <script src="scripts/js/regChecks.js"></script>
+        <title>Registrati</title>
+    </head>
+    <body>
+        <div class = "FormContainer">
+            <div class = "center" style="height: 75%;">
+                <form method = "POST" action = "scripts/php/register.php">
+                    <div style="height:12%;">
+                        <h2><a href = "index.html">&#10094;</a> Registrati</h2>
+                    </div>
+                    <div style="height:12%;">
+                        <p>Nome:</p>
+                        <input id = "RegName" name="RegName" type="text">
+                    </div>
+                    <div style="height:12%;">
+                        <p>Cognome:</p>
+                        <input id = "RegSurname" name="RegSurname" type="text">
+                    </div>
+                    <div style="height:12%;">
+                        <p>Nome Utente:</p>
+                        <input id = "RegUser" name="RegUser" type="text">
+                    </div>
+                    <div style="height:12%;">
+                        <p>Password:</p>
+                        <input id = "RegPsw" name="RegPsw" type="password">
+                    </div>
+                    <div style="height:12%;">
+                        <p>Ripeti password:</p>
+                        <input id = "RegPswCheck" name="RegPswCheck" type="password">
+                    </div>
+                    <div style="height:12%;">
+                        <input id="RegConfirm" value="Registrati" type="submit">
+                        <p id = "Help" style="color: red; font-size: 12; text-align: center;"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
